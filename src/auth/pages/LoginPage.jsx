@@ -1,7 +1,6 @@
 import { Link as RouterLink } from "react-router-dom";
 import { Google } from "@mui/icons-material";
 import { Button, Grid, Link, TextField, Typography } from "@mui/material";
-import React from "react";
 import { AuthLayout } from "../layouts/AuthLayout";
 
 export const LoginPage = () => {
@@ -9,18 +8,18 @@ export const LoginPage = () => {
     <AuthLayout title="Login">
       <form>
         <Grid container spacing={1} sx={{ mt: 2 }}>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} md={12}>
             <TextField
-              label="email"
+              label="Email"
               type="email"
               placeholder="Type an email"
               fullWidth
             />
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} md={12}>
             <TextField
               autoComplete="off"
-              label="password"
+              label="Password"
               type="password"
               placeholder="Type a password"
               fullWidth
