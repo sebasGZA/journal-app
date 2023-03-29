@@ -1,7 +1,6 @@
 import { Typography } from "@mui/material";
 import { JournalLayout } from "../layouts/JournalLayout";
 
-
 export const JournalPage = () => {
   return (
     <JournalLayout>
