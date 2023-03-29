@@ -1,7 +1,6 @@
 import { Typography } from "@mui/material";
 import { JournalLayout } from "../layouts/JournalLayout";
 
-const drawerWidth = 240;
 
 export const JournalPage = () => {
   return (
